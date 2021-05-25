@@ -12,7 +12,7 @@ To run application run below 2 commands in 2 different terminals:
 ### `yarn json-server --watch db.json --port 3001`
 ### `yarn start`
 
-note : please make sure you are connected to internet
+Note : please make sure you are connected to internet
 
 Runs the app in the development mode.
 Open [http://localhost:3000] to view it in the browser.
