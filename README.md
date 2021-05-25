@@ -4,9 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run below 2 commands in 2 different terminals:
-
+In the project directory, 
+please run:
 ### `yarn install`
+you can run below 2 commands in 2 different terminals:
 ### `yarn json-server --watch db.json --port 3001`
 ### `yarn start`
 
