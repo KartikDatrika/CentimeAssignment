@@ -15,7 +15,7 @@ export default function EditableTable(props: {translateColumnNames: boolean}) {
         addRow(dispatch, data);
     }
     const onEditClick = (rowId: number, columnId: number, value: any) => {
-        value = (isNaN(Number(value)) || value == "") ? value : Number(value);
+        value = (isNaN(Number(value)) || value === "") ? value : Number(value);
         editRow(dispatch, data, rowId, columnId, value as Number);
     }
     const onDeleteClick = (rowId: number) => {
