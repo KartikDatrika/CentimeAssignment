@@ -22,7 +22,7 @@ export default function ExpenditureVisualization() {
         data
     }
 
-    const chart = data.length > 0 ? <GoogleChart {...chartProps} /> : null;
+    const chart = data.length > 1 ? <GoogleChart {...chartProps} /> : null;
 
     return (
         <div className="container">
