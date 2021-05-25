@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Google Chart Test Suite Google Chart is rendering without any error ! 1`] = `
+<div>
+  <div
+    class="mt-5 mb-5"
+  />
+</div>
+`;

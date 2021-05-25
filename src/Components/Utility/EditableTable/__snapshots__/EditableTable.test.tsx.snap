@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditableTable Test Suite Editable Table is rendering without error 1`] = `
+<div>
+  <div
+    class="table-container"
+  >
+    <table
+      class="table table-borderless"
+    >
+      <thead>
+        <tr>
+          <td
+            class="columnName"
+          >
+             
+            InFlow
+             
+          </td>
+          <td
+            class="columnName"
+          >
+             
+            OutFlow
+             
+          </td>
+          <td
+            class="columnName"
+          >
+             
+            Amount
+             
+          </td>
+          <td>
+            <button
+              class="btn btn-success"
+              type="button"
+            >
+              ADD
+            </button>
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <input
+              class="form-control"
+              placeholder=""
+              value="Stocks"
+            />
+          </td>
+          <td>
+            <input
+              class="form-control"
+              placeholder=""
+              value="Savings"
+            />
+          </td>
+          <td>
+            <input
+              class="form-control"
+              placeholder=""
+              value="25"
+            />
+          </td>
+          <td>
+            <button
+              class="btn btn-danger"
+              type="button"
+            >
+              DEL
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              class="form-control"
+              placeholder=""
+              value="Gold"
+            />
+          </td>
+          <td>
+            <input
+              class="form-control"
+              placeholder=""
+              value="Savings"
+            />
+          </td>
+          <td>
+            <input
+              class="form-control"
+              placeholder=""
+              value="10"
+            />
+          </td>
+          <td>
+            <button
+              class="btn btn-danger"
+              type="button"
+            >
+              DEL
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
