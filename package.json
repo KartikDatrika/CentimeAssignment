@@ -29,7 +29,7 @@
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
-        "test": "react-scripts test --coverage -u",
+        "test" : "react-scripts test --coverage -u --no-cache --watchAll",
         "eject": "react-scripts eject"
     },
     "eslintConfig": {
@@ -42,6 +42,6 @@
         "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
     },
     "jest": {
-        "collectCoverageFrom": ["src/**/*.{ts,tsx}","!src/index.tsx","!src/reportWebVitals.ts"]
+        "collectCoverageFrom" : ["src/**/*.{ts,tsx}", "!src/index.tsx", "!src/reportWebVitals.ts"]
     }
 }
